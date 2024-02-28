@@ -16,7 +16,14 @@
 
     .main_container {
         max-width: 800px;
+        padding: 48px;
         background: #fff;
+    }
+
+    @media screen and (max-width: 600px) {
+        .main_container {
+            padding: 16px;
+        }
     }
 
     svg {
@@ -26,7 +33,7 @@
 </style>
 
 <body>
-    <div class="container p-5 main_container shadow" style="max-width: 800px;">
+    <div class="container main_container shadow">
         <div class="header">
             <h3 class="text-uppercase" style="font-size: 36px; line-height: 1; font-weight: 400;">Sunil <span class="fw-semibold">Prajapat</span></h3>
             <p class="profession" style="font-size: 20px; line-height: 24px; color: #006666;">Full Stack Developer</p>
